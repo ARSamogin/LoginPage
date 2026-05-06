@@ -34,19 +34,37 @@ input[type="text"],input[type="password"]{
 }
 
 .remember{
+    display: flex;
     margin: 10px;
+    justify-content: space-between;
 }
 
-label{
-    margin: 5px;
-    font-size: 14px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(216, 216, 216);
-    text-shadow: 0.5px 0.5px 0.5px black;
+.remember a{
+    color: rgb(142, 178, 250);
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .button{
     align-self: center;
+}
+
+.register{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(216, 216, 216);
+    text-align: center;
+    margin: 15px;
+}
+
+.register a{
+    color: rgb(142, 178, 250);
+}
+
+label{
+    margin: 5px;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(216, 216, 216);
+    text-shadow: 0.5px 0.5px 0.5px black;
 }
 
 button{
