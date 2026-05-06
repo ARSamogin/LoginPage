@@ -23,7 +23,7 @@ body{
     backdrop-filter: blur(3px);
 }
 
-input[type="text"],input[type="password"]{
+input[type="email"],input[type="password"],input[type="text"]{
     padding: 15px;
     margin: 5px;
     border-radius: 20px;
@@ -46,6 +46,7 @@ input[type="text"],input[type="password"]{
 
 .button{
     align-self: center;
+    margin: 5px;
 }
 
 .register{
