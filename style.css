@@ -44,10 +44,9 @@ label{
     color: rgb(216, 216, 216);
     text-shadow: 0.5px 0.5px 0.5px black;
 }
-/*fix*/
-.wrapper > .button{
+
+.button{
     align-self: center;
-    justify-content: center;
 }
 
 button{
